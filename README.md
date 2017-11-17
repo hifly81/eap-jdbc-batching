@@ -13,8 +13,4 @@ A servlet calls a stateless EJB (Transaction Required) with hibernate batch jdbc
  
 ### persistence.xml
 
-<property name="hibernate.jdbc.batch_size" value="25"/> 
-
-
-	
-
+Enabled the property hibernate.jdbc.batch_size with the value for the batch size
